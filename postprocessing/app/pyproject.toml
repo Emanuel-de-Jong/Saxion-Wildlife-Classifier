@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wildlife-classifier"
+version = "0.1.0"
+description = ""
+authors = []
+packages = [{include = "scripts"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0, <3.11.0"
+numpy = "^1.26.4"
+pandas = "^1.4.3"
+pytesseract = "^0.3.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

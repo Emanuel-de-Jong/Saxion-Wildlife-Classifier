@@ -1,0 +1,6 @@
+image_dir_path: "" # path to the parent directory of the images that need inference
+models_to_inference: ["yolo"] # Which model(s) to use
+options:
+  visualize_annotations: True # When true, the images with inference is shown (with the bounding boxes)
+  visualize_statistics: True # When true, the statistics of the inference is shown
+  filter_batches: True # When true, the batches will be filtered to be as unique as possible (ref: postprocessing/app/scripts/postprocessing/remove_duplicates.py)

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Classifier</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="icon" href="data:,">
+    <script src="libs/js-yaml.min.js"></script>
+</head>
+<body>
+    <div id="status"></div>
+    <form>
+        <div>
+            <label for="image_dir_path">Paste the full path to the directory with images:</label>
+            <span class="info" title="The path may contain images in any folder depth and in multiple folders">?</span>
+        </div>
+        <p>
+            <a href="https://www.makeuseof.com/ways-to-copy-full-file-folder-path-windows/#how-to-copy-a-folder-path-from-the-file-explorer-address-bar">Windows guide</a>
+        </p>
+        <p>
+            <a href="https://www.idownloadblog.com/2023/02/17/how-to-copy-file-folder-pathname-finder">Mac OS guide</a> 
+        </p>
+        <input type="text" id="image_dir_path" placeholder="Example: C:\Users\Default\Pictures\AWC01">
+
+        <label for="yolo">Select the model(s) to use:</label>
+        <div>
+            <input type="checkbox" id="yolo" checked>
+            <label for="yolo">Yolo</label>
+        </div>
+        <div>
+            <input type="checkbox" id="efficient_det">
+            <label for="efficient_det">EfficientDet</label>
+        </div>
+
+        <label for="preprocess">Options:</label>
+        <div>
+            <input type="checkbox" id="visualize_annotations" checked>
+            <label for="visualize_annotations">Visualize annotations</label>
+            <span class="info" title="The images with inference is shown (with the bounding boxes)">?</span>
+        </div>
+        <div>
+            <input type="checkbox" id="visualize_statistics" checked>
+            <label for="visualize_statistics">Visualize statistics</label>
+            <span class="info" title="The statistics of the inference is shown">?</span>
+        </div>
+        <div>
+            <input type="checkbox" id="filter_batches" checked>
+            <label for="filter_batches">Filter batches</label>
+            <span class="info" title="The batches will be filtered to be as unique as possible">?</span>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="save_settings" checked>
+            <label for="save_settings">Save current settings</label>
+        </div>
+
+        <button type="button" id="submit_button">Start</button>
+    </form>
+
+    <script src="custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "wildlife-classifier"
+version = "0.1.0"
+description = ""
+authors = []
+packages = [{include = "scripts"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0, <3.11.0"
+torch = "2.4.1" # Needed for effdet
+torchvision = "0.19.1"
+effdet = "^0.4.1"
+albumentations = "^1.4.18"
+matplotlib = "^3.9.2"
+numpy = "^1.26.4"
+pandas = "^1.4.3"
+tqdm = "^4.66.5"
+opencv-python-headless = "^4.5.0"
+pillow = "^11.1.0"
+webcolors = "^24.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

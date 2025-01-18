@@ -1,0 +1,102 @@
+[
+    {
+        "animal": "dog",
+        "count": 34,
+        "needed": 200
+    },
+    {
+        "animal": "black_headed_seagull",
+        "count": 68,
+        "needed": 200
+    },
+    {
+        "animal": "stork",
+        "count": 75,
+        "needed": 200
+    },
+    {
+        "animal": "kestrel",
+        "count": 0,
+        "needed": 200
+    },
+    {
+        "animal": "duckling",
+        "count": 44,
+        "needed": 200
+    },
+    {
+        "animal": "swallow",
+        "count": 52,
+        "needed": 200
+    },
+    {
+        "animal": "redshank",
+        "count": 150,
+        "needed": 200
+    },
+    {
+        "animal": "weasel",
+        "count": 0,
+        "needed": 200
+    },
+    {
+        "animal": "common_shelduck",
+        "count": 78,
+        "needed": 200
+    },
+    {
+        "animal": "buzzard",
+        "count": 54,
+        "needed": 200
+    },
+    {
+        "animal": "singing_bushlark",
+        "count": 35,
+        "needed": 200
+    },
+    {
+        "animal": "rat",
+        "count": 60,
+        "needed": 200
+    },
+    {
+        "animal": "fox",
+        "count": 0,
+        "needed": 200
+    },
+    {
+        "animal": "goose",
+        "count": 35,
+        "needed": 200
+    },
+    {
+        "animal": "orinoco_goose",
+        "count": 0,
+        "needed": 200
+    },
+    {
+        "animal": "tit",
+        "count": 36,
+        "needed": 200
+    },
+    {
+        "animal": "lapwing",
+        "count": 36,
+        "needed": 200
+    },
+    {
+        "animal": "gadwall",
+        "count": 72,
+        "needed": 200
+    },
+    {
+        "animal": "goshawk",
+        "count": 34,
+        "needed": 200
+    },
+    {
+        "animal": "ermine",
+        "count": 34,
+        "needed": 200
+    }
+]   

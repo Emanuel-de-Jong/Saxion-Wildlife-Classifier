@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wildlife-classifier"
+version = "0.1.0"
+description = ""
+authors = []
+packages = [{include = "scripts"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0, <3.11.0"
+torch = "^1.11.0" # Needed for yolov11 (ultralytics)
+ultralytics = { git = "https://github.com/ultralytics/ultralytics.git" }
+numpy = "^1.26.4"
+pandas = "^1.4.3"
+opencv-python-headless = "^4.5.0"
+pillow = "^11.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

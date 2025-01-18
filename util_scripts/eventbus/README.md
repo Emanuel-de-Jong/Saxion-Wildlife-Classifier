@@ -1,0 +1,3 @@
+A prototype showing `main` sending messages to a RabbitMQ `broker` and 2 `worker`s receiving them in a Docker environment were all 4 are their own container. Using `kombu` to communicate with the `broker` through python. `kombu` was chosen over `pika` because it's higher level and with that simpler, yet customizable enough that I could not think of a scenario where it will be insufficient for our use cases.
+
+Run with `docker-compose up --build`
