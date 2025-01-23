@@ -86,7 +86,11 @@ def get_species_by_hour(results):
                 dict_animal = species_by_hour[found]
                 if dict_animal.get(hour) is None:
                     dict_animal[hour] = temp_dict[found]
-                    species_by_hour[found] = dict_animal
+                else:
+                    dict_animal[hour] += temp_dict[found]
+                species_by_hour[found] = dict_animal
+
+
 
     return species_by_hour
 
