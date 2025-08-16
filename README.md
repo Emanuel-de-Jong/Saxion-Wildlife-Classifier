@@ -1,5 +1,5 @@
 # Wildlife Classifier
-For the class: 3.2 Project Big Data
+For the class: 3.2 BDT Project Big Data
 
 ## About the project
 The decline of meadow bird populations in the Netherlands has become a critical issue, exacerbated by predator pressure and habitat changes. To assist site/field administrators in making area management decisions, we propose a monitoring system that leverages computer vision (CV) and data pipelines to improve wildlife management strategies.
