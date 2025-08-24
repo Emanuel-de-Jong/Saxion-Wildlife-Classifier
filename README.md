@@ -8,7 +8,8 @@ The decline of meadow bird populations in the Netherlands has become a critical 
 
 | | |
 | :---: | :---: |
-| ![](/Screenshots/.png) | ![](/Screenshots/.png) |
+| ![](/Screenshots/1-Result.png) | ![](/Screenshots/2-Website.png) |
+| ![](/Screenshots/3-Data_Statistics.png) | ![](/Screenshots/.png) |
 
 ### Team
 #### Internal project managers:
