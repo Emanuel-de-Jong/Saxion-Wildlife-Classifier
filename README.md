@@ -3,8 +3,8 @@ For the class: 3.2 BDT Project Big Data
 
 The decline of meadow bird populations in the Netherlands has become a critical issue, exacerbated by predator pressure and habitat changes. To assist site/field administrators in making area management decisions, we propose a monitoring system that leverages computer vision (CV) and data pipelines to improve wildlife management strategies.
 
-**Active Development:** <br>
-**Last Change:** <br>
+**Active Development:** 2024-11-11 - 2025-01-18<br>
+**Last Change:** 2025-01-21<br>
 
 | | |
 | :---: | :---: |
