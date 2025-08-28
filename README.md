@@ -102,3 +102,4 @@ The project requires images that include a bar at the bottom displaying the date
 
 ## License
 MIT License, refer to `LICENSE` file
+ 
